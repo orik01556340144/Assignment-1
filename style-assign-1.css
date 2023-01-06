@@ -1,0 +1,207 @@
+*{font-family: 'Open Sans', sans-serif;
+margin: 0;}
+
+/*BANNER*/
+
+.banner{
+    height:810px;
+width: 1520px;
+background-image:url(./Media/banner/banner1.png);
+background-size: cover;
+justify-content:space-between;
+flex-direction: column;
+background-blend-mode:multiply;align-items:right;}
+
+.banner-header{font-weight:700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    margin-right: 50px;padding-top: 100px;margin-bottom: 5px;}
+
+    .banner-description{font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+       text-align: right;
+        color: #444343;margin-right: 60px;
+    padding-top: 15px;}
+
+    .contact-btn{background-color: orangered;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 30px;
+        border: 0;height:64px ;width: 160px;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin-top: 20px;
+    text-align: center;
+float: right;margin: 100px;
+    }
+    
+    .contact-btn:hover
+    {
+    background-color: transparent;color: black;
+    border:solid 2px black;
+}
+
+/*MAIN */
+/*FAILURE*/
+
+.failure
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 300px;
+    padding-top: 150px;
+    width: 1072px;
+height: 725px;
+
+}
+
+.failure div{
+    width: 416px;
+height: 400px;
+left: 862px;
+top: 1178px;
+padding-left: 50px;
+}
+
+span
+{
+color: green;
+}
+
+.failure h2{
+    padding: 10px;
+}
+
+
+#para-1{
+    padding: 8px;
+    font-weight: 400;
+    size: 16px;
+    line-height: 22px;
+}
+
+#para-2{
+    padding: 5px;
+    padding-top: 0;
+    font-weight: 300;
+    size: 10px;
+    line-height: 18px;
+
+}
+
+/*My plan*/
+
+.My-plan{
+width: 1141px;
+height: 300px;
+left: 230px;
+top: 1795px;
+text-align: center;
+padding-top: 70px;
+padding-right:auto;
+margin-right: 300PX;
+}
+
+.My-plan-info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    flex-direction: row;
+    gap:50px;
+}
+.mindset{width:1141px;
+    height: 182px;
+    left: 294px;
+    top: 2275px;
+    font-weight: 600;
+    font-size: 20px;
+
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(./Media/Photo/watch.png);
+    background-repeat: no-repeat;border-radius: 5px;
+    text-align: left;
+    align-self: center;
+    margin-left: 200px;
+    width: 1140px;
+height: 300px;
+left: 230px;
+top: 2216px;
+color: #fff}
+.mindset-description{
+    padding: 30px 30px;
+}
+.btn-call{
+      width: 160px;
+    height: 40px;
+    left: 294px;
+    top: 2399px;
+    margin: 30px;
+   color: orange;
+   font-weight: 600;
+    margin-top: 15px;
+    background-color: rgb(208, 199, 186);border: 0ch;
+
+}
+    .btn-call:hover
+    {
+    background-color: yellow;color: black;
+    border:solid 2px black;
+}
+
+/*Footer*/
+
+footer
+{
+    display: flex;
+background-color:black;
+color: white;
+padding: 50px;
+gap: 300PX;
+font-weight: 5;font-size: 15;
+margin-top: 100px;
+}
+.footer-title{
+    padding-bottom: 15px;
+}
+
+a{
+    padding: 5px;
+    border: 0;
+}
+
+.Footer-description
+{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   }
+input{
+    height: 15px;
+    width: 180px;
+    padding:10px ;
+    margin: 5px;
+    display: block;
+}
+.btn-sub{
+
+    color: orangered;
+    background-color:antiquewhite;
+    border-radius: 0;
+    height: 20px;
+    width: 60px;
+    box-sizing: content-box;
+}
+.btn-sub:hover{background-color: yellow;color: black;
+    border:solid 2px black;
+
+
+}
+
+
+
+
+
+
