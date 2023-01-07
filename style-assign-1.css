@@ -151,6 +151,25 @@ color: #fff}
     border:solid 2px black;
 }
 
+.Dream{
+background-image: url(./Media/Photo/dream.jpg);
+height:600px;
+width: 800px;
+background-size:contain;
+background-repeat: no-repeat;
+margin-top: 100px;
+margin-bottom: 50px;
+margin-left: 300px;
+margin-right: 50px;
+align-content: center;
+text-align: center;
+color: #fff;
+padding-top :30px;
+padding-left:center;
+font-weight: 500;
+font-size: 40px;
+}
+
 /*Footer*/
 
 footer
@@ -180,7 +199,7 @@ a{
    }
 input{
     height: 15px;
-    width: 180px;
+    width: 190px;
     padding:10px ;
     margin: 5px;
     display: block;
